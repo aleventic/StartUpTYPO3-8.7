@@ -1,0 +1,111 @@
+<?php
+return [
+    'BE' => [
+        'debug' => true,
+        'explicitADmode' => 'explicitAllow',
+        'installToolPassword' => '$P$CwciGoLLGJ.WzNcgGPtSc9pRekGKoH/',
+        'loginSecurityLevel' => 'rsa',
+    ],
+    'DB' => [
+        'Connections' => [
+            'Default' => [
+                'charset' => 'utf8mb4_unicode_ci',
+                'driver' => 'mysqli',
+            ],
+        ],
+    ],
+    'EXT' => [
+        'extConf' => [
+            'aus_driver_amazon_s3' => 'a:2:{s:11:"dnsPrefetch";s:1:"1";s:18:"doNotLoadAmazonLib";s:1:"0";}',
+            'backend' => 'a:5:{s:9:"loginLogo";s:51:"EXT:smedia_ace_nia/Resources/Public/img/Backend/login-logo.svg";s:19:"loginHighlightColor";s:0:"";s:20:"loginBackgroundImage";s:0:"";s:11:"backendLogo";s:0:"";s:14:"backendFavicon";s:0:"";}',
+            'belog' => 'a:0:{}',
+            'css_styled_content' => 'a:0:{}',
+            'extension_builder' => 'a:3:{s:15:"enableRoundtrip";s:1:"1";s:15:"backupExtension";s:1:"1";s:9:"backupDir";s:35:"uploads/tx_extensionbuilder/backups";}',
+            'feedit' => 'a:0:{}',
+            'felogin' => 'a:0:{}',
+            'femanager' => 'a:2:{s:13:"disableModule";s:1:"0";s:10:"disableLog";s:1:"0";}',
+            'form' => 'a:0:{}',
+            'gridelements' => 'a:2:{s:20:"additionalStylesheet";s:0:"";s:19:"nestingInListModule";s:1:"0";}',
+            'logs' => 'a:1:{s:12:"moduleConfig";s:5:"tools";}',
+            'my_redirects' => 'a:0:{}',
+            'news' => 'a:17:{s:13:"prependAtCopy";s:1:"1";s:6:"tagPid";s:1:"1";s:12:"rteForTeaser";s:1:"0";s:22:"contentElementRelation";s:1:"1";s:21:"contentElementPreview";s:1:"1";s:13:"manualSorting";s:1:"0";s:19:"categoryRestriction";s:0:"";s:34:"categoryBeGroupTceFormsRestriction";s:1:"0";s:19:"dateTimeNotRequired";s:1:"0";s:11:"archiveDate";s:4:"date";s:12:"mediaPreview";s:5:"false";s:20:"advancedMediaPreview";s:4:"true";s:24:"showAdministrationModule";s:1:"1";s:35:"hidePageTreeForAdministrationModule";s:1:"0";s:12:"showImporter";s:1:"0";s:18:"storageUidImporter";s:1:"1";s:22:"resourceFolderImporter";s:12:"/news_import";}',
+            'pdfviewhelpers' => 'a:0:{}',
+            'powermail' => 'a:8:{s:12:"disableIpLog";s:1:"0";s:27:"disableMarketingInformation";s:1:"0";s:20:"disableBackendModule";s:1:"0";s:24:"disablePluginInformation";s:1:"0";s:35:"disablePluginInformationMailPreview";s:1:"0";s:13:"enableCaching";s:1:"0";s:15:"l10n_mode_merge";s:1:"0";s:29:"replaceIrreWithElementBrowser";s:1:"0";}',
+            'realurl' => 'a:6:{s:10:"configFile";s:26:"typo3conf/realurl_conf.php";s:14:"enableAutoConf";s:1:"0";s:14:"autoConfFormat";s:1:"1";s:17:"segTitleFieldList";s:0:"";s:12:"enableDevLog";s:1:"0";s:10:"moduleIcon";s:1:"1";}',
+            'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
+            'rte_ckeditor' => 'a:0:{}',
+            'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
+            'smedia_contactflap' => 'a:0:{}',
+            'smedia_events' => 'a:0:{}',
+            'smedia_frontend' => 'a:0:{}',
+            'smedia_location' => 'a:0:{}',
+            'smedia_map' => 'a:0:{}',
+            'smedia_productbox' => 'a:0:{}',
+            'smedia_solutionmanager' => 'a:0:{}',
+            'solr' => 'a:4:{s:35:"useConfigurationFromClosestTemplate";s:1:"0";s:43:"useConfigurationTrackRecordsOutsideSiteroot";s:1:"1";s:29:"useConfigurationMonitorTables";s:0:"";s:27:"allowSelfSignedCertificates";s:1:"0";}',
+            'tcpdf' => 'a:0:{}',
+            'tt_address' => 'a:3:{s:21:"backwardsCompatFormat";s:9:"%1$s %3$s";s:24:"storeBackwardsCompatName";s:1:"0";s:17:"readOnlyNameField";s:1:"0";}',
+            'url_forwarding' => 'a:0:{}',
+            'vhs' => 'a:1:{s:20:"disableAssetHandling";s:1:"0";}',
+            'vidi' => 'a:3:{s:10:"data_types";s:18:"fe_users,fe_groups";s:11:"default_pid";s:24:"1,fe_users:1,fe_groups:1";s:19:"autoload_typoscript";s:1:"1";}',
+        ],
+    ],
+    'EXTCONF' => [
+        'lang' => [
+            'availableLanguages' => [
+                'de',
+            ],
+        ],
+    ],
+    'FE' => [
+        'debug' => true,
+        'loginSecurityLevel' => 'rsa',
+        'pageNotFound_handling_statheader' => 'HTTP/1.1 404 Not Found',
+    ],
+    'GFX' => [
+        'jpg_quality' => '80',
+        'processor' => 'ImageMagick',
+        'processor_allowTemporaryMasksAsPng' => false,
+        'processor_colorspace' => 'sRGB',
+        'processor_effects' => 1,
+        'processor_enabled' => true,
+        'processor_path' => '/usr/bin/',
+        'processor_path_lzw' => '/usr/bin/',
+    ],
+    'MAIL' => [
+        'transport' => 'smtp',
+        'transport_sendmail_command' => '',
+        'transport_smtp_encrypt' => '',
+        'transport_smtp_password' => '',
+        'transport_smtp_server' => 'localhost:25',
+        'transport_smtp_username' => '',
+    ],
+    'SYS' => [
+        'UTF8filesystem' => true,
+        'caching' => [
+            'cacheConfigurations' => [
+                'extbase_object' => [
+                    'backend' => 'TYPO3\\CMS\\Core\\Cache\\Backend\\ApcuBackend',
+                    'frontend' => 'TYPO3\\CMS\\Core\\Cache\\Frontend\\VariableFrontend',
+                    'groups' => [
+                        'system',
+                    ],
+                    'options' => [
+                        'defaultLifetime' => 0,
+                    ],
+                ],
+            ],
+        ],
+        'devIPmask' => '*',
+        'displayErrors' => 1,
+        'enableDeprecationLog' => 'file',
+        'encryptionKey' => '5f537cb744fca212024b3077eba27ba71ef85eb56b8e43d38d2dee7b6f9a29e7945d63d9d1c11dcc01bcf86eeec42281',
+        'exceptionalErrors' => 28674,
+        'isInitialDatabaseImportDone' => true,
+        'isInitialInstallationInProgress' => false,
+        'sitename' => 'ACE NIA',
+        'sqlDebug' => 1,
+        'systemLocale' => 'de_DE.UTF-8',
+        'systemLogLevel' => 0,
+    ],
+];

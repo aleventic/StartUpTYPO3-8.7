@@ -1,0 +1,15 @@
+#########################
+#### Default Ignores ####
+#########################
+vendor/
+.idea/
+.env
+web/fileadmin
+web/uploads
+web/typo3temp
+web/typo3
+
+############################
+#### EXTENSIONS Ignores ####
+############################
+web/typo3conf/ext/extension_builder/

@@ -1,0 +1,48 @@
+{
+    "repositories": [
+        {"type": "composer","url": "https://composer.typo3.org/"},
+        {"type": "git", "url": "https://git.typo3.org/TYPO3CMS/Extensions/gridelements.git/"}
+    ],
+    "type": "typo3/cms-base-distribution",
+    "minimum-stability": "dev",
+  	"prefer-stable": true,
+    "require": {
+        "typo3/cms": "8.7.16",
+        "friendsoftypo3/extension-builder": "8.7",
+        "helhum/typo3-console": "^5.0",
+        "helhum/config-loader": "^0.1.0",
+        "helhum/env-ts": "^0.3.0",
+        "helhum/dotenv-connector": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helhum\\TYPO3\\Distribution\\": "src"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": "web"
+        },
+        "helhum/typo3-console": {
+            "install-extension-dummy": false,
+            "install-binary": true
+        },
+        "helhum/env-ts": {
+            "files": {
+                "web/typo3conf/ext/smedia_frontend/Configuration/TypoScript/Constants/environment.ts": [
+                    "server",
+                    "config",
+                    "plugin",
+                    "resources"
+                ]
+            },
+            "prefix": "",
+            "array-delimiter": "__",
+            "lower-camel-case": false
+        },
+        "helhum/dotenv-connector": {
+            "cache-dir": "var/cache"
+        }
+    }
+}
