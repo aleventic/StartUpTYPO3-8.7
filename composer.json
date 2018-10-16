@@ -30,7 +30,7 @@
         },
         "helhum/env-ts": {
             "files": {
-                "web/typo3conf/ext/smedia_frontend/Configuration/TypoScript/Constants/environment.ts": [
+                "web/typo3conf/ext/main_base/Configuration/TypoScript/Constants/environment.ts": [
                     "server",
                     "config",
                     "plugin",

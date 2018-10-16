@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:main_base/Configuration/TypoScript/Setup/PageTsConf/backend_layouts.ts" />

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-02-07T00:02:05Z" product-name="main_base">
+		<header/>
+		<body>
+		    // Backend Layouts
+			<trans-unit id="one_column_title">
+				<source>Startpage</source>
+			</trans-unit>
+			<trans-unit id="one_column">
+				<source>Middle</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

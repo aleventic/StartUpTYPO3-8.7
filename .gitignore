@@ -8,8 +8,11 @@ web/fileadmin
 web/uploads
 web/typo3temp
 web/typo3
+web/typo3conf/l10n/
+web/typo3conf/ext/ENABLE_INSTALL_TOOL
 
 ############################
 #### EXTENSIONS Ignores ####
 ############################
 web/typo3conf/ext/extension_builder/
+web/typo3conf/ext/main_base/Configuration/TypoScript/Constants/environment.ts

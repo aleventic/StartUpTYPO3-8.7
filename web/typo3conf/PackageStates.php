@@ -101,6 +101,9 @@ return [
         'extension_builder' => [
             'packagePath' => 'typo3conf/ext/extension_builder/',
         ],
+        'main_base' => [
+            'packagePath' => 'typo3conf/ext/main_base/',
+        ],
     ],
     'version' => 5,
 ];
